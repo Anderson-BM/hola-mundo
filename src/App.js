@@ -26,8 +26,8 @@ function App() {
   return (
     <div className="App">
 
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      {/* <header className="App-header">*/}
+       {/*  <img src={logo} className="App-logo" alt="logo" />*/}
       {/* Compononte propio de tipo clase Greeting.jsx */}
       {/* <GreetingC name="Anderson"></GreetingC>**/}
       {/* Compononte propio de tipo Funcion Greeting.jsx */}
@@ -49,8 +49,14 @@ function App() {
         Contenido del Props.children
       </h3>
       </Ejemplo4>*/}
-      <GreetingStyled name="Anderson"></GreetingStyled>
-      </header>
+      {/* <GreetingStyled name="Anderson"></GreetingStyled>*/}  
+      {/* </header>*/}
+
+     {/*------------------------------------------------------------------------------------------------------- */}
+
+     <TaskListComponent></TaskListComponent>
+
+
     </div>
   );
 }
