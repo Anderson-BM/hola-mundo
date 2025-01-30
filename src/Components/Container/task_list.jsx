@@ -7,7 +7,7 @@ import TaskComponent from '../pure/task';
 const TaskList = () => {
 
     const desfaulTask = new Task('Programacion WEB', 'APP clon de Uber', false, LEVELS.URGENT);
-// ESTADO DE EL COMPONENETE
+    // ESTADO DE EL COMPONENETE
     const [tasks, setTasks] = useState(desfaulTask);
     const [loandig, setLoandig] = useState(true);
 
